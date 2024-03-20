@@ -1,8 +1,8 @@
 Package: proBAMr
 Type: Package
 Title: Generating SAM file for PSMs in shotgun proteomics data
-Version: 1.37.0
-Date: 2016-03-31
+Version: 1.37.1
+Date: 2024-03-19
 Author: Xiaojing Wang
 Maintainer: Xiaojing Wang <xiaojing.wang@vanderbilt.edu>
 Description: Mapping PSMs back to genome. The package builds SAM file
@@ -10,7 +10,7 @@ Description: Mapping PSMs back to genome. The package builds SAM file
         to prepare annotation from GTF file.
 License: Artistic-2.0
 Depends: R (>= 3.0.1), IRanges, AnnotationDbi
-Imports: GenomicRanges, Biostrings, GenomicFeatures, rtracklayer
+Imports: GenomicRanges, Biostrings, GenomicFeatures, txdbmaker, rtracklayer
 Suggests: RUnit, BiocGenerics
 biocViews: ImmunoOncology, Proteomics, MassSpectrometry, Software, Visualization
 NeedsCompilation: no

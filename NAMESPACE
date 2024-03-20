@@ -1,5 +1,7 @@
 import(Biostrings)
-import(GenomicFeatures)
+importFrom(GenomicFeatures, transcripts, cdsBy, exonsBy,
+           fiveUTRsByTranscript, threeUTRsByTranscript)
+importFrom(txdbmaker, makeTxDbFromGFF)
 #import(rtracklayer)
 import(IRanges)
 import(GenomicRanges)
